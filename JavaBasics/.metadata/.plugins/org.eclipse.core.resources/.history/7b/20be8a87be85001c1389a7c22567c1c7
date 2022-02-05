@@ -1,0 +1,21 @@
+package Com.Rays.ExerciseJavaBasics;
+
+public class AverageOfEvenOddNumber {
+	public static void main(String[] args) {
+		int e=0,n=10,k=0,l=0;
+		int o=0;
+		for(int i=0; i<=n; i++) {
+			if(i%2==0) {
+			++e;
+			k+=i;
+			 
+			System.out.println("even no is -"+i);
+			}else {
+				++o;
+				l+=i;
+				System.out.println("odd no is -"+i);
+			}
+		} 
+		}
+
+}

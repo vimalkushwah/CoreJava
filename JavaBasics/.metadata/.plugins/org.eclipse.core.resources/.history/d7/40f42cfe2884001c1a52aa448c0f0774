@@ -1,0 +1,17 @@
+package Com.Rays.String;
+import java.util.*;
+public class TestHarmonic {
+
+	public static void main(String[] args) {
+	double d=0.0;
+	int i=1;
+	System.out.println(" ");
+		for( i=1;i<=5;i++) {
+			d=1+1/i;
+	d++;
+			
+		}		System.out.println(d);
+
+	}
+
+}

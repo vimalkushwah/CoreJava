@@ -1,0 +1,33 @@
+
+
+package Com.Rays.Java;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
+public class date {
+
+	private static final int Date = 0;
+
+	public static void main(String[] args) throws ParseException {
+		Date d=new Date();
+		System.out.println(d);
+		System.out.println("Date :"+ d);
+		System.out.println(d.getDate());		
+		SimpleDateFormat sdf=new SimpleDateFormat("dd/MM/yyyy");
+		String s= sdf.format(d);
+		System.out.println(s);
+		
+		String s1="22/01/2022";
+		Date d1=sdf.parse(s1);
+		System.out.println(d1);
+		System.out.println(d.getDay());
+		System.out.println(d.getTime());
+		String s2="28/08/1994";
+		Date d2=sdf.parse(s2);
+		System.out.println(d2);
+	    Calendar c=Calendar.getInstance();
+	    c.add(Calendar.DATE, 30);
+	    
+	}
+
+}

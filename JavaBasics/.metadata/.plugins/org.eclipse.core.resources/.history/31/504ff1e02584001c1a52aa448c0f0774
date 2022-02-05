@@ -1,0 +1,9 @@
+package Com.Rays.String;
+
+public class TestHarmonic {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package Com.Rays.String;
+
+public class GearAssigment3 {
+	public static void main(String[] args) {
+		if (first) {
+			
+		}
+	}
+	
+
+}

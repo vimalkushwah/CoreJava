@@ -1,0 +1,10 @@
+package Com.Rays.ExerciseJavaBasics;
+
+public class ReversDigit {
+
+	public static void main(String[] args) {
+		int n=4563;
+
+	}
+
+}

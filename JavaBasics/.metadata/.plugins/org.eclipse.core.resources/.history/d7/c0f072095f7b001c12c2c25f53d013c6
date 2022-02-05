@@ -1,0 +1,25 @@
+package string;
+
+public class Array2D {
+
+	public static void main(String[] args) {
+/*int[][]j=new int[5][5];
+for(int a=0;a<j.length;a++) {
+System.out.println();
+for(int k=0;k<j[a].length;k++) {
+	System.out.print(k);
+}
+}*/
+		int[][]j=new int[9][10];
+		for(int i=2;i<j.length;i++) {
+			System.out.println();
+			for(int k=1;k<j[i].length;k++) {
+		    int h=k*i;
+				System.out.print(h+"\t");
+				
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,42 @@
+package Com.Rays.Java;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Result {
+	public static void main(String[] args) {
+		Person p=new Person();
+		Account a= new Account();
+		Automobile am= new Automobile();
+		p.setname("Rajkumar");
+		System.out.println("Name=" +p.getname());
+		a.setno("12346743325");
+		System.out.println("Account no=" +a.getno());
+		am.setcolor("Brown");
+		System.out.println("Color=" +am.getcolor());
+		p.setadd("P+vill Semalda 214");
+		System.out.println("Address=" +p.getadd());
+		p.setage(26);
+		System.out.println("Age=" +p.getage());
+		am.setgear(4);
+		System.out.println("Gear no=" +am.getgear());
+		a.setAccount("Saving");
+		System.out.println("Account type=" +a.getAccount());
+		a.setbal(25000.00);
+		System.out.println("Balance=" +a.getbal());
+		am.setspeed(70);
+		System.out.println("Speed=" +am.getspeed());
+		am.setmake("Suzuki");
+		System.out.println("Make by=" +am.getmake());
+		p.setdob("Fri Jan 28");
+		System.out.println("Date of birth=" +p.getdob());
+		
+		
+		Date d =new Date();
+		SimpleDateFormat Format= new SimpleDateFormat("dd/MM/yyyy");
+		String s=Format.format(d);
+		System.out.println(s);
+		
+	}
+
+}

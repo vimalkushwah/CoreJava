@@ -1,0 +1,10 @@
+package Com.Rays.ExerciseJavaBasics;
+
+public class RandonInteger {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
